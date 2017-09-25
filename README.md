@@ -1,4 +1,4 @@
-# Unofficial IPdeny.com
+# Unofficial - IPdeny.com
 
 A small PHP helper class which applies [IPdeny.com](http://www.ipdeny.com)'s country IP zones to iptables.
 
@@ -104,9 +104,9 @@ try {
 
 ## ::Support::
 
-Please [open an issue](https://github.com/issues/new) for support.
+Please [open an issue](https://github.com/lcherone/ipdeny/issues) for support.
 
 ## ::Contributing::
 
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/*/compare/).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/lcherone/ipdeny/compare/).
 
