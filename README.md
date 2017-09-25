@@ -2,25 +2,14 @@
 
 A small PHP helper class which applies [IPdeny.com](http://www.ipdeny.com)'s country IP zones to iptables.
 
-
-## Table of Contents
-
-- [Installation](#installation)
-- [Features](#features)
-- [Class Synopsis](#class synopsis)
-- [Example Usage](#example usage)
-- [Support](#support)
-- [Contributing](#contributing)
-
-## Installation
+## ::Installation::
 
 Requires `php5-zip / php7.0-zip` extension.
 
-Install, git clone or download/copy&paste to your project, I may add as a 
-composer lib if the need arises.
+To install, git clone, download or copy & paste to your project. I may add as a composer lib if the need arises.
 
 
-## Features
+## ::Features::
 
  - It uses the [MD5SUM](http://www.ipdeny.com/ipblocks/data/countries/MD5SUM) file for reference and verifies all downloaded files
  - Downloads individual zones or all-zones.tar.gz based upon which zones you want to block
@@ -31,7 +20,7 @@ composer lib if the need arises.
  - Fast or slow iptables rule apply modes
  - Console debug output
 
-## Class Synopsis
+## ::Class Synopsis::
 
 ```
 Methods
@@ -50,12 +39,18 @@ Properties
 IPdeny public $debug = false;
 ```
 
-## Example Usage
+## ::Example Usage::
+
+Below shows how you can use the class to apply country zones to your iptables.
 
 ```
 
 try {
     $ipdeny = new IPdeny();
+    
+    /**
+     * Enable debug output
+     */
     //$ipdeny->debug = true;
     
     /**
@@ -107,10 +102,11 @@ try {
 ```
 
 
-## Support
+## ::Support::
 
 Please [open an issue](https://github.com/issues/new) for support.
 
-## Contributing
+## ::Contributing::
 
 Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/*/compare/).
+
