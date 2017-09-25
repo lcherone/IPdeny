@@ -1,4 +1,4 @@
-# Unofficial - IPdeny.com
+# IPdeny
 
 A small PHP helper class which applies [IPdeny.com](http://www.ipdeny.com)'s country IP zones to iptables.
 
@@ -41,7 +41,7 @@ IPdeny public $debug = false;
 
 ## ::Example Usage::
 
-Below shows how you can use the class to apply country zones to your iptables.
+Below shows how you can use the class to apply country zones to your iptables, methods can be used on there own or chained.
 
 ```
 
@@ -64,7 +64,7 @@ try {
     //$ipdeny->clear()
     
     /**
-     * Downloaded zone/s
+     * Download zone/s
      */
     // caches downloads
     //$ipdeny->download('gb')               - single
